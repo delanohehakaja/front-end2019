@@ -1,0 +1,84 @@
+body {
+    background-color: mediumpurple;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+   justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.footerMenu {
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 0 50px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerMenu li {
+    display: inline;
+}
+
+.footerMenu a:hover {
+    color: lawngreen;
+}
+
+p {
+    color: white;
+}
+
+p.question {
+    font-size: 200%;
+}
+
+p.footer {
+    margin: 50px 0 20px 50px;
+}
+
+h1 {
+    color: black;
+}
+
+table.plaatjes {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 100px 0 0;
+}
+
+div.beheren {
+    width: 350px;
+    margin: 10px 0 20px 50px;
+    text-align: left;
+}
+
+div.download {
+    width: 350px;
+    margin: 10px 0 20px 550px;
+    text-align: left;
+}
+
+div.webPlayer {
+    width: 350px;
+    margin: 10px 0 20px 1050px;
+    text-align: left;
+}
